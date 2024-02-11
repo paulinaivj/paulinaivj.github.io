@@ -85,6 +85,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
 .navbar a {
@@ -120,7 +121,7 @@ body {
 }
 
 /* acerca de mí */
-.format-cont {
+#fabout {
   display: flex;
   align-items: flex-start;
   align-content: space-around;
@@ -186,7 +187,6 @@ body {
 }
 
 .timeline-event-icon:hover {
-  rotate: -45deg;
   background-color: #cf6c34;
 }
 
@@ -250,8 +250,8 @@ body {
 
 .portafolio-img {
   display: block;
-  width: 195px;
-  height: 195px;
+  width: 250px;
+  height: 250px;
 }
 
 .portafolio-bloque {
